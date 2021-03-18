@@ -1,0 +1,8 @@
+C:\Users\Hadi\Desktop\e4progress\UIUtil\bin\Debug\UIUtil.dll
+C:\Users\Hadi\Desktop\e4progress\UIUtil\bin\Debug\UIUtil.pdb
+C:\Users\Hadi\Desktop\e4progress\UIUtil\bin\Debug\Windows.winmd
+C:\Users\Hadi\Desktop\e4progress\UIUtil\obj\Debug\UIUtil.csprojAssemblyReference.cache
+C:\Users\Hadi\Desktop\e4progress\UIUtil\obj\Debug\UIUtil.csproj.CoreCompileInputs.cache
+C:\Users\Hadi\Desktop\e4progress\UIUtil\obj\Debug\UIUtil.csproj.CopyComplete
+C:\Users\Hadi\Desktop\e4progress\UIUtil\obj\Debug\UIUtil.dll
+C:\Users\Hadi\Desktop\e4progress\UIUtil\obj\Debug\UIUtil.pdb

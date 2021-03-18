@@ -1,0 +1,16 @@
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\bin\Debug\netcoreapp3.1\E4Progress.BLL.deps.json
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\bin\Debug\netcoreapp3.1\E4Progress.BLL.dll
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\bin\Debug\netcoreapp3.1\E4Progress.BLL.pdb
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\bin\Debug\netcoreapp3.1\E4Progress.DAL.dll
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\bin\Debug\netcoreapp3.1\E4Progress.Domain.dll
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\bin\Debug\netcoreapp3.1\E4Progress.Shared.dll
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\bin\Debug\netcoreapp3.1\E4Progress.DAL.pdb
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\bin\Debug\netcoreapp3.1\E4Progress.Domain.pdb
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\bin\Debug\netcoreapp3.1\E4Progress.Shared.pdb
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\obj\Debug\netcoreapp3.1\E4Progress.BLL.csprojAssemblyReference.cache
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\obj\Debug\netcoreapp3.1\E4Progress.BLL.AssemblyInfoInputs.cache
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\obj\Debug\netcoreapp3.1\E4Progress.BLL.AssemblyInfo.cs
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\obj\Debug\netcoreapp3.1\E4Progress.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\obj\Debug\netcoreapp3.1\E4Progress.BLL.csproj.CopyComplete
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\obj\Debug\netcoreapp3.1\E4Progress.BLL.dll
+C:\Users\Hadi\Desktop\e4progress\E4Progress.BLL\obj\Debug\netcoreapp3.1\E4Progress.BLL.pdb

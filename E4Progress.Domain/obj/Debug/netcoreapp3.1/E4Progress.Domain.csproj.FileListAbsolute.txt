@@ -1,0 +1,9 @@
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Domain\bin\Debug\netcoreapp3.1\E4Progress.Domain.deps.json
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Domain\bin\Debug\netcoreapp3.1\E4Progress.Domain.dll
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Domain\bin\Debug\netcoreapp3.1\E4Progress.Domain.pdb
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Domain\obj\Debug\netcoreapp3.1\E4Progress.Domain.csprojAssemblyReference.cache
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Domain\obj\Debug\netcoreapp3.1\E4Progress.Domain.AssemblyInfoInputs.cache
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Domain\obj\Debug\netcoreapp3.1\E4Progress.Domain.AssemblyInfo.cs
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Domain\obj\Debug\netcoreapp3.1\E4Progress.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Domain\obj\Debug\netcoreapp3.1\E4Progress.Domain.dll
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Domain\obj\Debug\netcoreapp3.1\E4Progress.Domain.pdb

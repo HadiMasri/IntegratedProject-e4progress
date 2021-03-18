@@ -1,0 +1,286 @@
+﻿<Window x:Class="E4Progress.UI.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:converter="clr-namespace:UIUtil;assembly=UIUtil"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:ext="clr-namespace:UIUtil.Extension;assembly=UIUtil"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:resx="clr-namespace:E4Progress.UI.Strings"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        ext:Translation.ResourceManager="{x:Static resx:SR.ResourceManager}"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="800" MinWidth="1270" ResizeMode="CanResize"  WindowStartupLocation="CenterScreen" WindowStyle="None" Background="White">
+    <Window.Resources>
+        <converter:NewLineConverter x:Key="keyNewLineConverter" />
+        <ImageBrush x:Key="tb_mouse_over"
+                    ImageSource="../Assets/tgBtn_default.png"/>
+        <ImageBrush x:Key="tb_mouse_click"
+                    ImageSource="../Assets/closeMenu.png"/>
+
+        <!--// Text font style //-->
+
+        <Style x:Key="font_style" TargetType="TextBlock">
+
+            <Setter Property="FontFamily"
+                    Value="Fonts/Roboto-Light.ttf #Roboto"/>
+
+            <Setter Property="VerticalAlignment"
+                    Value="Center"/>
+
+            <Setter Property="HorizontalAlignment"
+                    Value="Left"/>
+
+            <Setter Property="Foreground"
+                    Value="White"/>
+
+            <Setter Property="FontSize"
+                    Value="20"/>
+
+        </Style>
+
+        <!--// Tooltip Style Template //-->
+
+        <Style TargetType="ToolTip" x:Key="tt_style">
+
+            <Setter Property="Placement" Value="Right"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Margin" Value="20,0,0,0"/>
+            <Setter Property="Background" Value="#4A5668"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontFamily" Value="Fonts/Roboto-Light.ttf #Roboto"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="PlacementRectangle" Value="60,0,0,0"/>
+            <Setter Property="HorizontalOffset" Value="15"/>
+            <Setter Property="VerticalOffset" Value="6"/>
+            <Setter Property="HasDropShadow" Value="True"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+
+        </Style>
+
+        <Style x:Key="tb_style" TargetType="{x:Type ToggleButton}">
+
+            <Setter Property="Template">
+
+                <Setter.Value>
+
+                    <ControlTemplate TargetType="{x:Type ToggleButton}">
+
+                        <Border  x:Name="border"
+                                 BorderThickness="{TemplateBinding BorderThickness}"
+                                 Background="{TemplateBinding Background}"
+                                 SnapsToDevicePixels="True">
+
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+
+                            <Trigger Property="IsMouseOver" Value="true">
+
+                                <Setter Property="Background"
+                                        TargetName="border"
+                                        Value="{StaticResource tb_mouse_over}"/>
+
+                                <Setter Property="BorderBrush"
+                                        TargetName="border"
+                                        Value="{StaticResource tb_mouse_over}"/>
+
+                            </Trigger>
+
+                            <Trigger Property="IsChecked" Value="true">
+
+                                <Setter Property="Background"
+                                        TargetName="border"
+                                        Value="{StaticResource tb_mouse_click}"/>
+
+                                <Setter Property="BorderBrush"
+                                        TargetName="border"
+                                        Value="{StaticResource tb_mouse_click}"/>
+
+                            </Trigger>
+
+                        </ControlTemplate.Triggers>
+
+                    </ControlTemplate>
+
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+
+    </Window.Resources>
+
+    <Grid Background="#FFF" Loaded="Grid_Loaded">
+
+        <Grid>
+
+            <!--// Header bar //-->
+            <Grid x:Name="headerBar" Background="#2E333A" VerticalAlignment="Top"  Height="auto"  MouseDown="headerBar_MouseDown">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Image x:Name="btnShutdown" Source="../Assets/shutdown.png"   MaxHeight="20" MouseLeftButtonDown="btnShutdown_MouseLeftButtonDown"/>
+                </StackPanel>
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid x:Name="MainPanel" PreviewMouseLeftButtonDown="MainPanel_PreviewMouseLeftButtonDown" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="20" Visibility="Hidden">
+
+
+                </Grid>
+
+
+                <!--// Navigation Panel //-->
+
+                <Grid Grid.Column="0"  x:Name="nav_pnl"
+                    HorizontalAlignment="Left"
+                  
+                    Panel.ZIndex="1000"
+                    Background="#2E333A" Width="65">
+
+                    <StackPanel x:Name="st_pnl">
+
+                        <!--// Grid for the Menu Toggle Button //-->
+
+                        <Grid Height="111">
+
+                            <!--// Menu title text //-->
+
+                            <TextBlock  Grid.Row="1"
+                                    Grid.Column="0"
+                                    Margin="73,-20,0,0"
+                                    Text="M E N U"
+                                    Foreground="White"
+                                    FontSize="22"
+                                    Background="Transparent"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Center"
+                                    Style="{StaticResource font_style}">
+                            
+                            <!--// Shadow Effect //-->
+
+                                <TextBlock.Effect>
+
+                                    <DropShadowEffect  BlurRadius="10"
+                                                   ShadowDepth="1"
+                                                   Direction="-90"
+                                                   Color="White"/>
+
+                                </TextBlock.Effect>
+
+                            </TextBlock>
+
+                            <!--// Toggle Button //-->
+
+                            <ToggleButton x:Name="Tg_Btn"
+                                      Grid.Column="0"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Margin="18,-20,0,0"
+                                      Height="25"
+                                      Width="25"
+                                      BorderThickness="0"
+                                      Style="{StaticResource tb_style}" Unchecked="Tg_Btn_Unchecked" Checked="Tg_Btn_Checked">
+
+                                <!--// Toggle button default background image //-->
+
+                                <ToggleButton.Background>
+
+                                    <ImageBrush ImageSource="../Assets/tgBtn_default.png"
+                                            Stretch="None"/>
+
+                                </ToggleButton.Background>
+
+                                <!--// Toggle Button - Checked, Unchecked events //-->
+
+                                <ToggleButton.Triggers>
+
+                                    <EventTrigger RoutedEvent="ToggleButton.Unchecked">
+
+                                        <BeginStoryboard>
+
+                                            <Storyboard x:Name="HideStackPanel">
+
+                                                <DoubleAnimation    
+                                                
+                                                Storyboard.TargetName="nav_pnl"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="230" To="65"
+                                                Duration="0:0:0.2">
+
+                                                </DoubleAnimation>
+
+                                            </Storyboard>
+
+                                        </BeginStoryboard>
+
+                                    </EventTrigger>
+
+                                    <EventTrigger RoutedEvent="ToggleButton.Checked">
+
+                                        <BeginStoryboard>
+
+                                            <Storyboard x:Name="ShowStackPanel">
+
+                                                <DoubleAnimation
+                                                
+                                                Storyboard.TargetName="nav_pnl"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="65" To="230"
+                                                Duration="0:0:0.3">
+
+                                                </DoubleAnimation>
+
+                                            </Storyboard>
+
+                                        </BeginStoryboard>
+
+                                    </EventTrigger>
+
+                                </ToggleButton.Triggers>
+
+
+                            </ToggleButton>
+
+                        </Grid>
+                        <Grid Height="58">
+                            <materialDesign:PackIcon Kind="FaceProfile" Height="30" Width="40" Foreground="White" Margin="10,0,0,0" />
+                            <TextBlock x:Name="txtUserName" Margin="70,2,-227,0" FontSize="17" Foreground="White" />
+                        </Grid>
+
+                        <!-- Menu en submenus weergeven-->
+                        <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Hidden" Height="auto">
+                            <StackPanel x:Name="Menu" Margin="10"/>
+                        </ScrollViewer>
+                        <!--// ListView with menu list items //-->
+                        <!--<Border BorderBrush="white" BorderThickness="0 0.1 0 0" Padding="0 5 0 0">
+                            <Grid Height="58">
+
+                                <Button x:Name="btnLogOut" Content="{Binding Logout, Converter={StaticResource keyNewLineConverter}, Mode=TwoWay}"  Foreground="White"  Background="Transparent" BorderBrush="Transparent" Click="btnLogOut_Click"/>
+                            </Grid>
+                        </Border>-->
+                        <Grid Height="58">
+
+                            <materialDesign:PackIcon Kind="Logout" Height="30" Width="40" Foreground="White" Margin="10,0,0,0" MouseLeftButtonDown="PackIcon_MouseLeftButtonDown" />
+                            
+                        </Grid>
+                    </StackPanel>
+
+                </Grid>
+
+                <StackPanel Grid.Column="1"  x:Name="StackPanelMain" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="20" />
+
+            </Grid>
+
+        </Grid>
+
+    </Grid>
+</Window>

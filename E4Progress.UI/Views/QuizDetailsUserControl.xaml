@@ -1,0 +1,588 @@
+﻿<UserControl x:Class="E4Progress.UI.Views.QuizDetailsUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:E4Progress.UI.Views"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="610" d:DesignWidth="1276">
+    <Grid Background="White">
+        <StackPanel>
+            <Grid>
+                <Border BorderBrush="Black" BorderThickness="0.5 0.5 0.5 0.5" Margin="0 10 0 0">
+                    <ScrollViewer MaxHeight="550">
+                        <Grid Background="White" ShowGridLines="False" Height="900" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+
+                            <Border Grid.Column="0" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="A" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="1" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="B" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="1" Grid.Row="1" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="2" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="C" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="3" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="D" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="4" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="E" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="5" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="F" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="6" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="G" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="7" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="H" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="8" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="I" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="9" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="J" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="10" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="K" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="11" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="L" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="12" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="M" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+                            <Border Grid.Column="13" Grid.Row="0" Background="LightGray" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5">
+                                <TextBlock Text="N" TextAlignment="Center" FontSize="18"/>
+                            </Border>
+
+                            <Border Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="5" Grid.RowSpan="3" BorderBrush="Black" BorderThickness="0.5 0.5 0.5 0.5">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Row="0" Margin="0,0,0,24" Background="Salmon">
+                                        <TextBlock Text="Learnig Goals:" TextDecorations="underline" FontSize="14" Padding="5 0 0 0" />
+                                    </Grid>
+                                    <Grid Margin="0,24,0,0" Grid.RowSpan="2">
+                                        <Viewbox Margin=" 5 0 0 0">
+                                            <StackPanel Orientation="Vertical" Width="551" Height="91">
+                                                <TextBlock x:Name="TextGoals" FontSize="20" TextWrapping="Wrap" Foreground="Black" Text="Lorem ipsum dolor, lorem isum dolor,Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet " Height="89" />
+                                            </StackPanel>
+                                        </Viewbox>
+                                    </Grid>
+                                </Grid>
+                            </Border>
+                            <Border Grid.Column="1" Grid.Row="1" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="2" Grid.Row="1" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="3" Grid.Row="1" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="4" Grid.Row="1" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="5" Grid.Row="1" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="1" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="1" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="1" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="1" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="1" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="1" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="1" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="1" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="2" BorderBrush="LightGray" ></Border>
+                            <Border Grid.Column="1" Grid.Row="2" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="2" Grid.Row="2" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="3" Grid.Row="2" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="4" Grid.Row="2" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="5" Grid.Row="2" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="2" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="2" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="2" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="2" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="2" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="2" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="2" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="2" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="3" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="1" Grid.Row="3" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="2" Grid.Row="3" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="3" Grid.Row="3" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="4" Grid.Row="3" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="5" Grid.Row="3" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="3" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="3" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="3" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="3" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="3" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="3" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="3" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="3" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="4" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="4" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="4" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="4" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="4" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="4" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="4" Grid.ColumnSpan="7" Grid.RowSpan="10" BorderBrush="Black" BorderThickness="0.5 0.5 0.5 0.5">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Row="0" Margin="0,0,0,136" Background="Salmon">
+                                        <TextBlock Text="Question:" TextDecorations="underline" FontSize="14" Padding="5 0 0 0" />
+                                    </Grid>
+                                    <Grid Margin="0,24,0,0" Grid.RowSpan="2">
+                                        <ScrollViewer Margin=" 5 0 0 0">
+                                            <StackPanel Orientation="Vertical" Width="592" Height="275">
+                                                <TextBlock x:Name="TextQuestion" FontSize="15" TextWrapping="Wrap" Foreground="Black" Text="" Height="277" />
+                                            </StackPanel>
+                                        </ScrollViewer>
+                                    </Grid>
+                                </Grid>
+                            </Border>
+                            <Border Grid.Column="7" Grid.Row="4" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="8" Grid.Row="4" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="9" Grid.Row="4" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="10" Grid.Row="4" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="11" Grid.Row="4" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="12" Grid.Row="4" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="13" Grid.Row="4" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="5" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="5" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="5" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="5" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="5" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="5" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="5" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="7" Grid.Row="5" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="8" Grid.Row="5" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="9" Grid.Row="5" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="10" Grid.Row="5" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="11" Grid.Row="5" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="12" Grid.Row="5" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="13" Grid.Row="5" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="5" Grid.RowSpan="4" BorderBrush="Black" BorderThickness="0.5 0.5 0.5 0.5">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Row="0" Margin="0,0,0,40" Background="Salmon">
+                                        <TextBlock Text="Exercise Files Info:" TextDecorations="underline" FontSize="14" Padding="5 0 0 0" />
+                                    </Grid>
+                                    <Grid Margin="0,24,0,0" Grid.RowSpan="2">
+                                        <Viewbox Margin="5 0 0 0">
+                                            <StackPanel Orientation="Vertical" Width="551" Height="137">
+                                                <TextBlock x:Name="TextExerciseFiles" FontSize="20" TextWrapping="Wrap" Foreground="Black" Text="Lorem ipsum dolor, lorem isum dolor,Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet " Height="135" />
+                                            </StackPanel>
+                                        </Viewbox>
+                                    </Grid>
+                                </Grid>
+                            </Border>
+                            <Border Grid.Column="1" Grid.Row="6" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="2" Grid.Row="6" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="3" Grid.Row="6" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="4" Grid.Row="6" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="5" Grid.Row="6" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="6" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="7" Grid.Row="6" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="8" Grid.Row="6" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="9" Grid.Row="6" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="10" Grid.Row="6" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="11" Grid.Row="6" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="12" Grid.Row="6" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="13" Grid.Row="6" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="7" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="1" Grid.Row="7" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="2" Grid.Row="7" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="3" Grid.Row="7" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="4" Grid.Row="7" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="5" Grid.Row="7" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="7" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="7" Grid.Row="7" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="8" Grid.Row="7" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="9" Grid.Row="7" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="10" Grid.Row="7" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="11" Grid.Row="7" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="12" Grid.Row="7" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="13" Grid.Row="7" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="8" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="1" Grid.Row="8" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="2" Grid.Row="8" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="3" Grid.Row="8" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="4" Grid.Row="8" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="5" Grid.Row="8" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="8" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="7" Grid.Row="8" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="8" Grid.Row="8" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="9" Grid.Row="8" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="10" Grid.Row="8" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="11" Grid.Row="8" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="12" Grid.Row="8" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="13" Grid.Row="8" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="9" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="1" Grid.Row="9" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="2" Grid.Row="9" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="3" Grid.Row="9" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="4" Grid.Row="9" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="5" Grid.Row="9" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="9" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="7" Grid.Row="9" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="8" Grid.Row="9" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="9" Grid.Row="9" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="10" Grid.Row="9" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="11" Grid.Row="9" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="12" Grid.Row="9" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="13" Grid.Row="9" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="10" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="10" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="10" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="10" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="10" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="10" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="10" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="7" Grid.Row="10" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="8" Grid.Row="10" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="9" Grid.Row="10" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="10" Grid.Row="10" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="11" Grid.Row="10" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="12" Grid.Row="10" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="13" Grid.Row="10" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="11" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="11" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="11" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="11" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="11" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="11" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="11" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="7" Grid.Row="11" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="8" Grid.Row="11" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="9" Grid.Row="11" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="10" Grid.Row="11" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="11" Grid.Row="11" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="12" Grid.Row="11" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="13" Grid.Row="11" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="12" Grid.ColumnSpan="5" Grid.RowSpan="3" BorderBrush="Black" BorderThickness="0.5 0.5 0.5 0.5">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Row="0" Margin="0,0,0,24" Background="Salmon">
+                                        <TextBlock Text="Required Skills:" TextDecorations="underline" FontSize="14" Padding="5 0 0 0"  />
+                                    </Grid>
+                                    <Grid Margin="0,24,0,0" Grid.RowSpan="2">
+                                        <Viewbox Margin="5 0 0 0">
+                                            <StackPanel Orientation="Vertical" Width="551" Height="91">
+                                                <TextBlock x:Name="TextSkills" FontSize="20" TextWrapping="Wrap" Foreground="Black" Text="Lorem ipsum dolor, lorem isum dolor,Lorem ipsum dolor sit amet, lorem ipsum dolor sit amet " Height="89" />
+                                            </StackPanel>
+                                        </Viewbox>
+                                    </Grid>
+                                </Grid>
+                            </Border>
+                            <Border Grid.Column="1" Grid.Row="12" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="2" Grid.Row="12" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="3" Grid.Row="12" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="4" Grid.Row="12" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="5" Grid.Row="12" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="12" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="7" Grid.Row="12" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="8" Grid.Row="12" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="9" Grid.Row="12" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="10" Grid.Row="12" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="11" Grid.Row="12" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="12" Grid.Row="12" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="13" Grid.Row="12" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="13" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="1" Grid.Row="13" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="2" Grid.Row="13" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="3" Grid.Row="13" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="4" Grid.Row="13" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="5" Grid.Row="13" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="13" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="7" Grid.Row="13" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="8" Grid.Row="13" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="9" Grid.Row="13" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="10" Grid.Row="13" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="11" Grid.Row="13" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="12" Grid.Row="13" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="13" Grid.Row="13" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="14" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="1" Grid.Row="14" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="2" Grid.Row="14" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="3" Grid.Row="14" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="4" Grid.Row="14" BorderBrush="LightGray"></Border>
+                            <Border Grid.Column="5" Grid.Row="14" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="14" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="14" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="14" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="14" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="14" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="14" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="14" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="14" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="15" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="16" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="17" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="18" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="19" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="20" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="21" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="22" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="23" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="24" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="25" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="26" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+
+                            <Border Grid.Column="0" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="1" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="2" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="3" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="4" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="5" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="6" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="7" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="8" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="9" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="10" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="11" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="12" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                            <Border Grid.Column="13" Grid.Row="27" BorderBrush="LightGray" BorderThickness="0.5 0.5 0.5 0.5"></Border>
+                        </Grid>
+                    </ScrollViewer>
+                </Border>
+            </Grid>
+            <Grid>
+                <Button x:Name="BtnClose" Style="{StaticResource MaterialDesignFlatButton}" Background="#f4f4f4" Content="Close" HorizontalAlignment="Right" Margin="10" Click="BtnClose_Click" />
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

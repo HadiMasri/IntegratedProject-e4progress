@@ -1,0 +1,9 @@
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Shared\bin\Debug\netcoreapp3.1\E4Progress.Shared.deps.json
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Shared\bin\Debug\netcoreapp3.1\E4Progress.Shared.dll
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Shared\bin\Debug\netcoreapp3.1\E4Progress.Shared.pdb
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Shared\obj\Debug\netcoreapp3.1\E4Progress.Shared.csprojAssemblyReference.cache
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Shared\obj\Debug\netcoreapp3.1\E4Progress.Shared.AssemblyInfoInputs.cache
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Shared\obj\Debug\netcoreapp3.1\E4Progress.Shared.AssemblyInfo.cs
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Shared\obj\Debug\netcoreapp3.1\E4Progress.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Shared\obj\Debug\netcoreapp3.1\E4Progress.Shared.dll
+C:\Users\Hadi\Desktop\e4progress\E4Progress.Shared\obj\Debug\netcoreapp3.1\E4Progress.Shared.pdb
